@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { Heart, MapPin } from "lucide-react";
 
 // Hardcode your visit time here. Use a full ISO string with timezone offset.
 // Example: "2025-10-12T18:00:00-04:00" means Oct 12, 2025 at 6:00 PM Toronto time
-const TARGET_ISO = "2025-10-17T13:35:00-04:00";
+const TARGET_ISO = "2025-10-16T13:35:00-04:00";
 
 // Optional: a label for the destination
 const DESTINATION = "Ottawa";
